@@ -1,0 +1,54 @@
+[
+  {
+    "id": "VLB-001",
+    "name_ar": "قوس ماركوس أوريليوس",
+    "name_en": "Arch of Marcus Aurelius",
+    "city": "طرابلس",
+    "region": "الغرب",
+    "category": "تراث ثقافي",
+    "lat": 32.8976,
+    "lon": 13.1809,
+    "summary_ar": "أحد أبرز المعالم الرومانية في قلب مدينة طرابلس القديمة.",
+    "summary_en": "One of the most iconic Roman landmarks in the old city of Tripoli.",
+    "image": "marcus-arch.jpg"
+  },
+  {
+    "id": "VLB-002",
+    "name_ar": "لبدة الكبرى",
+    "name_en": "Leptis Magna",
+    "city": "الخمس",
+    "region": "الغرب",
+    "category": "تراث عالمي",
+    "lat": 32.6386,
+    "lon": 14.2914,
+    "summary_ar": "مدينة أثرية عالمية تعكس عظمة التاريخ الروماني في ليبيا.",
+    "summary_en": "A world-class archaeological city reflecting Libya's Roman heritage.",
+    "image": "leptis-magna.jpg"
+  },
+  {
+    "id": "VLB-003",
+    "name_ar": "غدامس",
+    "name_en": "Ghadames",
+    "city": "غدامس",
+    "region": "الجنوب الغربي",
+    "category": "مدينة تاريخية",
+    "lat": 30.1337,
+    "lon": 9.5007,
+    "summary_ar": "مدينة صحراوية عريقة تشتهر بعمارتها التقليدية ومكانتها التراثية.",
+    "summary_en": "A historic desert city known for traditional architecture and heritage value.",
+    "image": "ghadames.jpg"
+  },
+  {
+    "id": "VLB-004",
+    "name_ar": "جبال أكاكوس",
+    "name_en": "Akakus Mountains",
+    "city": "غات",
+    "region": "الجنوب الغربي",
+    "category": "طبيعة وفن صخري",
+    "lat": 24.8333,
+    "lon": 10.3333,
+    "summary_ar": "منطقة طبيعية وثقافية فريدة تضم تشكيلات صخرية وفنونًا صخرية قديمة.",
+    "summary_en": "A unique natural and cultural area with rock formations and ancient rock art.",
+    "image": "akakus.jpg"
+  }
+]

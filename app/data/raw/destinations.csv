@@ -1,0 +1,5 @@
+﻿id,name_ar,name_en,city,region,category,lat,lon,summary_ar,summary_en,image
+VLB-001,قوس ماركوس أوريليوس,Arch of Marcus Aurelius,طرابلس,الغرب,تراث ثقافي,32.8976,13.1809,أحد أبرز المعالم الرومانية في قلب مدينة طرابلس القديمة.,One of the most iconic Roman landmarks in the old city of Tripoli.,marcus-arch.jpg
+VLB-002,لبدة الكبرى,Leptis Magna,الخمس,الغرب,تراث عالمي,32.6386,14.2914,مدينة أثرية عالمية تعكس عظمة التاريخ الروماني في ليبيا.,A world-class archaeological city reflecting Libya's Roman heritage.,leptis-magna.jpg
+VLB-003,غدامس,Ghadames,غدامس,الجنوب الغربي,مدينة تاريخية,30.1337,9.5007,مدينة صحراوية عريقة تشتهر بعمارتها التقليدية ومكانتها التراثية.,A historic desert city known for traditional architecture and heritage value.,ghadames.jpg
+VLB-004,جبال أكاكوس,Akakus Mountains,غات,الجنوب الغربي,طبيعة وفن صخري,24.8333,10.3333,منطقة طبيعية وثقافية فريدة تضم تشكيلات صخرية وفنونًا صخرية قديمة.,A unique natural and cultural area with rock formations and ancient rock art.,akakus.jpg

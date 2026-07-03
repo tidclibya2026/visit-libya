@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Visit Libya | ليبيا أرض الحضارات</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="brand">
+        <div class="brand-symbol">🇱🇾</div>
+        <div>
+          <strong>Visit Libya</strong>
+          <span>ليبيا أرض الحضارات</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="#destinations">الوجهات</a>
+        <a href="#map-section">الخريطة</a>
+        <a href="#investment">الاستثمار</a>
+        <a href="#about">عن المنصة</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">من عبق التاريخ إلى مستقبل واعد</p>
+      <h1>اكتشف ليبيا كما لم ترها من قبل</h1>
+      <p>
+        منصة رقمية سياحية للترويج للوجهات، المدن التاريخية، التراث، الطبيعة،
+        والتجارب السياحية ضمن مشروع أطلس ليبيا السياحي.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#destinations">استكشف الوجهات</a>
+        <a class="btn secondary" href="#map-section">افتح الخريطة</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="intro">
+      <div>
+        <p class="eyebrow">Visit Libya Platform</p>
+        <h2>منصة وطنية للترويج السياحي الذكي</h2>
+      </div>
+      <p>
+        تعتمد المنصة على البيانات المكانية، المحتوى البصري، الخرائط التفاعلية،
+        والسرد السياحي الاحترافي لتقديم ليبيا كوجهة ثقافية وطبيعية واستثمارية.
+      </p>
+    </section>
+
+    <section class="stats-section">
+      <div class="stat-card">
+        <span id="totalDestinations">0</span>
+        <p>وجهة سياحية</p>
+      </div>
+      <div class="stat-card">
+        <span id="totalRegions">0</span>
+        <p>أقاليم سياحية</p>
+      </div>
+      <div class="stat-card">
+        <span id="totalCategories">0</span>
+        <p>تصنيفات</p>
+      </div>
+    </section>
+
+    <section id="destinations" class="section">
+      <div class="section-header">
+        <p class="eyebrow">Featured Destinations</p>
+        <h2>وجهات مختارة</h2>
+      </div>
+
+      <div class="filters">
+        <input id="searchInput" type="text" placeholder="ابحث عن وجهة أو مدينة..." />
+
+        <select id="regionFilter">
+          <option value="">كل الأقاليم</option>
+        </select>
+
+        <select id="categoryFilter">
+          <option value="">كل التصنيفات</option>
+        </select>
+      </div>
+
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <section id="map-section" class="map-section">
+      <div class="map-header">
+        <div>
+          <p class="eyebrow">Tourism Atlas</p>
+          <h2>الخريطة التفاعلية للوجهات السياحية</h2>
+        </div>
+        <p>
+          يتم تشغيل الخريطة من ملف GeoJSON الناتج من Python، ويمكن تطويرها لاحقًا
+          لإضافة طبقات الاستثمار السياحي، الإيواء، التراث، الطبيعة، والمدن التاريخية.
+        </p>
+      </div>
+
+      <div id="map"></div>
+    </section>
+
+    <section id="investment" class="investment-section">
+      <p class="eyebrow">Tourism Investment</p>
+      <h2>الخارطة الاستثمارية للسياحة</h2>
+      <p>
+        ستكون المرحلة القادمة هي إضافة طبقة مستقلة للفرص الاستثمارية السياحية،
+        تشمل الموقع، التصنيف، الجاهزية، البنية التحتية، الأولوية، وبطاقة تعريفية لكل فرصة.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 مركز المعلومات والتوثيق السياحي - Visit Libya</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
